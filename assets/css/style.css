@@ -205,12 +205,8 @@ h6 {
   font-family: "Poppins", sans-serif;
 }
 
-#header .logo a {
-  color: #fff;
-}
-
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -1712,7 +1708,7 @@ section {
 
 #footer .footer-top .footer-newsletter form input[type=submit]:hover {
   background-image: linear-gradient(85deg, #55c5cb 0, #3abac3 25%, #01afbb 50%, #00a4b3 75%, #009aac 100%);
-  background: ;
+  background: #01AFBB;
 }
 
 #footer .copyright {
