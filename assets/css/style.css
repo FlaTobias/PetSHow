@@ -1129,29 +1129,14 @@ section {
   padding-bottom: 8px;
 }
 
-.registration .php-email-form .validate {
-  display: none;
-  color: red;
-  margin: 0 0 15px 0;
-  font-weight: 400;
-  font-size: 13px;
-}
-
-.registration .php-email-form .error-message {
-  display: none;
-  color: #fff;
-  background: #ed3c0d;
-  text-align: left;
-  padding: 15px;
-  font-weight: 600;
-}
 
 .registration .php-email-form .error-message br+br {
   margin-top: 25px;
 }
 
 
-.registration .php-email-form input,
+.registration .php-email-form input, 
+.registration .php-email-form select, 
 .registration .php-email-form textarea {
   border-radius: 0;
   box-shadow: none;
@@ -1162,11 +1147,16 @@ section {
 }
 
 .registration .php-email-form input::-moz-placeholder,
+.registration .php-email-form select::-moz-placeholder,
 .registration .php-email-form textarea::-moz-placeholder {
+  color: #a49b89;
+}
+.registration .php-email-form select{
   color: #a49b89;
 }
 
 .registration .php-email-form input::placeholder,
+.registration .php-email-form select::placeholder,
 .registration .php-email-form textarea::placeholder {
   color: #a49b89;
 }
@@ -1176,13 +1166,12 @@ section {
   border-color: #01AFBB;
 }
 
-.registration .php-email-form input {
+.registration .php-email-form input,
+.registration .php-email-form select{
   height: 44px;
 }
 
-.registration .php-email-form textarea {
-  padding: 10px 12px;
-}
+
 
 .registration .php-email-form button{
   background-image: linear-gradient(85deg, #55c5cb 0, #3abac3 25%, #01afbb 50%, #00a4b3 75%, #009aac 100%);
