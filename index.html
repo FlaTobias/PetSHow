@@ -754,20 +754,27 @@
 
           <div class="col-lg-8 mt-5 mt-lg-0">
 
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8" method="POST" class="php-email-form">
               <div class="row">
+                <input type=hidden name="orgid" value="00DDn000007pjFI">
+                <input type=hidden name="retURL" value="https://petshow.netlify.app/#">
+
                 <div class="col-md-6 form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Nome" required>
+                  <input id="name" maxlength="80" name="name" size="20" type="text" class="form-control" placeholder="Nome" required>
                 </div>
                 <div class="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Email" required>
+                  <input id="email" maxlength="80" name="email" size="20" type="email" class="form-control" placeholder="Email" required>
                 </div>
+                <div class="col-md-6 form-group">
+                  <input id="phone" maxlength="40" name="phone" size="20" type="text" class="form-control" placeholder="Telefone" required>
+                </div>
+              
+              <div class="col-md-6 form-group mt-3 mt-md-0">
+                <input id="subject" maxlength="80" name="subject" size="20"  type="text" class="form-control" placeholder="Assunto" required>
               </div>
+            </div>         
               <div class="form-group mt-3">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Assunto" required>
-              </div>
-              <div class="form-group mt-3">
-                <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                <textarea class="form-control" name="description"rows="8" placeholder="Message"></textarea>
               </div>
               <div class="text-center"><button type="submit">Enviar</button></div>
             </form>
