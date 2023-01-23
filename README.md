@@ -31,7 +31,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## :information_source: Descrição:
 
 Site desenvolvido para o projeto final do bootcamp Salesforce da Soulcode academy, turma BC 28 - SALESFORCE 07.<br><br>
-Em parceria com os alunos do grupo 9:<br>
+Em parceria com as alunas do grupo 9:<br>
 Cinthia Matsuda<br>
 Juliana Cardoso<br>
 Michele Cruz Rocha<br>
